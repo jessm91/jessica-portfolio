@@ -1,0 +1,11 @@
+* {
+    font-family: Arial;
+}
+
+:root {
+    --primary-color: #20b2aa;
+    --secondary-color: #b19cd9;
+    --tertiary-color: #D99294;
+    --quaternary-color: #779ecb;
+}
+
