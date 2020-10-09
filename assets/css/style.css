@@ -9,3 +9,26 @@
     --quaternary-color: #779ecb;
 }
 
+nav {
+    margin: 7px 0;
+}
+
+nav ul {
+    color: var(--tertiary-color);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+}
+
+nav ul li a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: var(--tertiary-color);
+    font-weight: bold;
+}
+
+nav ul li:hover a{
+    color: var(--secondary-color);
+}
