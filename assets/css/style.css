@@ -53,14 +53,39 @@ nav ul li:hover a{
     text-align: center;
 }
 
+.container {
+    display: grid;
+    width: 80%;
+}
+
 h3 {
     font-weight: bold;
     font-family: Arial;
     color: var(--quaternary-color);
     font-size: 35px;
+    grid-column: 1;
 }
 
 p {
     color: var(--secondary-color);
     font-weight: bold;
+}
+
+.links ul {
+    list-style: none;
+    color: var(--tertiary-color);
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+    padding: 10px 25px;
+}
+.links ul li:hover a {
+    color: var(--primary-color);
 }
