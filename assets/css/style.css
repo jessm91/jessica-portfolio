@@ -32,3 +32,24 @@ nav ul li a {
 nav ul li:hover a{
     color: var(--secondary-color);
 }
+
+#welcome {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+
+}
+
+#welcome h1 {
+    color: var(--primary-color);
+    font-size: 50px;
+}
+
+#welcome h2 {
+    color: var(--secondary-color);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
