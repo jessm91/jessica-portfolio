@@ -39,7 +39,6 @@ nav ul li:hover a{
     flex-direction: column;
     align-items: center;
     padding-top: 40px;
-
 }
 
 #welcome h1 {
@@ -52,4 +51,16 @@ nav ul li:hover a{
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+}
+
+h3 {
+    font-weight: bold;
+    font-family: Arial;
+    color: var(--quaternary-color);
+    font-size: 35px;
+}
+
+p {
+    color: var(--secondary-color);
+    font-weight: bold;
 }
