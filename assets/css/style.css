@@ -76,7 +76,8 @@ nav ul li:hover a{
 
 .container {
     display: grid;
-    width: 80%;
+    grid-template-columns: 1 / 3;
+    grid-template-rows: 1 / 4;
 }
 
 .container-2 {
