@@ -82,10 +82,36 @@ nav ul li:hover a{
 
 .container-2 {
     display: grid;
+    grid-auto-flow: dense;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-gap: 15px;
-    grid-auto-flow: dense;
+    grid-column-gap: 20px;
+    grid-row-gap: 15px;
+}
+
+.grid-item.item-one {
+    grid-column: 1 / span 2;
+    grid-row: 1/ span 2;
+}
+
+.grid-item.item-two {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.grid-item.item-three {
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
+}
+
+.grid-item.item-four {
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+}
+
+.grid-item.item-five {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
 }
 
 h3 {
@@ -121,15 +147,22 @@ p {
 }
 
 .grid-item {
-    position: relative;
     display: flex;
+    position: relative;
 }
 
-img {
+.box-even {
     height: 250px;
     width: 400px;
     opacity: 0.4;
     border: solid 4px var(--tertiary-color);
+}
+
+.box-odd {
+    opacity: 0.4;
+    border: solid 4px var(--tertiary-color);
+    height: 530px;
+    width: 830px;
 }
 
 img:hover {
